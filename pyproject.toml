@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tessweave-train"
+version = "0.1.0a1"
+description = "Guided, reviewable post-training workflows for local model checkpoints"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Felixgithub2017/tessweave-train"
+Issues = "https://github.com/Felixgithub2017/tessweave-train/issues"
+Studio = "https://github.com/Felixgithub2017/tessweave-studio"
+Engine = "https://github.com/Felixgithub2017/tessweave-engine"
+
+[project.scripts]
+tessweave-train = "tessweave_train.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tessweave_train*"]

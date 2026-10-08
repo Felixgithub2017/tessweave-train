@@ -1,0 +1,16 @@
+{
+  "method": "sft",
+  "tuner": "lora",
+  "model": "/mnt/models/Qwen2.5-0.5B-Instruct",
+  "python": "/opt/conda/envs/tessweave-train/bin/python",
+  "train": "examples/sft.train.jsonl",
+  "eval": "examples/sft.eval.jsonl",
+  "output": "runs/sft-smoke-001",
+  "gpus": 1,
+  "max_length": 1024,
+  "steps": 20,
+  "batch": 1,
+  "accumulation": 16,
+  "lr": 0.0001,
+  "rank": 8
+}

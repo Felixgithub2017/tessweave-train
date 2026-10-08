@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"Compute 17 + 25. Put the final answer in \\boxed{}."}],"solution":"\\boxed{42}"}
+{"messages":[{"role":"user","content":"Compute 6 times 9. Put the final answer in \\boxed{}."}],"solution":"\\boxed{54}"}

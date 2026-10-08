@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+runs/
+*.log
+plan.json
+.env
+.env.*
+*.pem
+*.key
+*.safetensors
+*.pt
+*.pth
+models/

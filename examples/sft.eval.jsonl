@@ -1,0 +1,1 @@
+{"messages":[{"role":"user","content":"Can a CPU test establish H100 inference speed?"},{"role":"assistant","content":"No. Measure correctness and performance on the actual H100 environment."}]}

@@ -1,0 +1,1 @@
+{"messages":[{"role":"user","content":"Should we compare different precision settings as a pure scheduler improvement?"},{"role":"assistant","content":"No. Fix precision and other workload invariants to isolate scheduling effects."}],"rejected_response":"Yes, every latency difference comes from the scheduler."}

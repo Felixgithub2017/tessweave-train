@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"What should I record before changing an inference kernel?"},{"role":"assistant","content":"Record the model revision, precision, hardware, workload and baseline correctness and performance results."}]}
+{"messages":[{"role":"user","content":"Is the number of SSE chunks the number of output tokens?"},{"role":"assistant","content":"No. Text chunks can contain multiple tokens or buffered text. Use authoritative tokenizer or server usage counts."}]}

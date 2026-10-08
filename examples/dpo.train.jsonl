@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"Does parsing config.json prove that an engine supports a model?"},{"role":"assistant","content":"No. Weight loading, forward correctness, cache behavior and generation must be tested on that architecture."}],"rejected_response":"Yes, any readable config guarantees support."}
+{"messages":[{"role":"user","content":"Can a speedup claim omit failed requests?"},{"role":"assistant","content":"No. Report failed requests alongside latency and throughput to avoid selection bias."}],"rejected_response":"Yes. Just keep the fastest successes."}
